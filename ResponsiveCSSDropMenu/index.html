@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ResponsiveCSSDropMenu</title>
+  <meta name="viewport" content="width=device-width, initial-scale?1.0">
+
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #737373;
+  }
+  
+  #wrapper {
+    margin: 0 auto;
+    max-width: 1020px;
+    width: 98%;
+    background: #2f3038;
+    padding: 2%;
+    border-radius: 2px;
+  }
+  
+  header {
+    width: 98%;
+    min-height: 100px;
+    padding: 5px;
+    margin-bottom: -40px;
+    text-align: center;
+  }
+  
+  img {
+    text-align: center;
+    max-width: 180px;
+    // min-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  
+  nav {
+    width: 95%;
+    margin: 15px auto;
+    overflow: hidden;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  nav ul li a {
+    background: #737373;
+    border-right: 1px solid #2f3038;
+    color: #2f3038;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 16.5%;
+    
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    -ms-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+  }
+  
+  nav ul li a:hover, nav ul li.active a {
+    background: #dadada;
+  }
+  
+  /* --- Media Queries! --- */
+  @media only screen and (max-width: 580px) {
+    nav ul li a {
+      width: 50%;
+      font-size: 14px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #2f3038;
+    }
+    
+    nav li:nth-child(even) a {
+      border-right: none;
+    } 
+    
+  }
+ 
+  
+</style>
+
+</head>
+
+<body>
+ 
+   <div id="wrapper">
+     <header>
+<!--       <a href="$"><img src="http://www.w3newbie.com/wp-content/uploads/newie_logo_gray.png" alt="logo"></a>  -->
+       <a href="$"><img src="img/w3-newbie-logo-ALLWHITE.png" alt="logo"></a>  
+     </header>
+     
+     <nav>
+       <ul>
+         <li class="active"><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Business</a></li>
+         <li><a href="#">Photos</a></li>
+         <li><a href="#">Videos</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+     </nav>
+     
+   </div>
+  
+</body>
+</html>
