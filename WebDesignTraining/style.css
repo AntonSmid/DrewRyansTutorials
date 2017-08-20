@@ -264,3 +264,94 @@ footer.second p {
   padding: 5px 0 9px 0;
   text-align: center;
 }
+
+
+/*-------- Media --------- */
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 150%;
+  }
+  
+  h3 {
+    font-size: 125%
+  }
+  
+  p {
+    font-size: 120%;
+  }
+  
+  header {
+    position: absolute;
+  }
+  
+  #logo {
+    background: url(img/RD_mobile.png) no-repeat center;
+    margin: 15px 0 20px -25px;
+  }
+  
+  #menu-icon {
+    display: inline-block;
+  }
+  
+  nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: rgba(105, 145, 172, 0.9);
+    // background: rgba(36, 55, 67, 0.7);
+    right: 20px;
+    top: 60px;
+    border: 1px solid #fff;
+    border-radius: 2px 0 2px 2px;
+    width: 35%;
+    //width: 140px;
+  }
+  
+  nav:hover ul {
+    display: block;
+  }
+  
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .banner {
+    padding-top: 86px;
+  }
+  
+  .one-fourth {
+    float: left;
+    width: 100%;
+  }
+  
+  .one-fourth i {
+    font-size: 380%;
+    padding: 6% 0 0% 0;
+  }
+  
+  article {
+    width: 100%;
+  }
+  
+  aside {
+    width: 100%;
+  }
+  
+  .hand-mobile {
+    display: none;
+  }
+  
+  .one-third {
+    width: 100%;
+  }
+  
+  .social i {
+    font-size: 170%;
+  }
+  
+}
+
