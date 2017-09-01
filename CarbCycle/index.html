@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weighr Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 1rem;
+      color: #333;
+      background: #fffff2;
+    }
+    
+    #wrapper {
+      width: 100%;
+      max-width: 920px;
+      margin: 0 auto;
+     // background-color: #fff;
+     // border: 1px solid ;
+    }
+    
+    #logo {
+      text-align: center;
+      height: 5rem;
+    }
+    
+    p {
+      font-size: 1em;
+      line-height: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .indent {
+      text-indent: 3rem;
+    }
+    
+/*    a {
+      color: #0d3c84;
+    }
+    
+    a:hover {
+      color: #0c3a85;
+    }*/
+    
+    h1 {
+      text-align: center;
+      color: #445d75;
+      padding: 1rem;
+    }
+    
+    h2, h3, h4, h5 {
+      color: #445d75;
+      page-break-after: 0.7rem;
+    }
+    
+    header {
+      width: 100%;
+      max-width: 878px;
+      margin: 0 auto;
+      padding: 1.25rem;
+      // height: 14rem;
+      // width: 100%;
+      border: 2px solid #445075;
+      -webkit-gradient (
+      linear,
+      right top,
+      left top,
+      color-stop(0, #fafafa),
+      color-stop(1, #445c73)
+      );
+      
+      background-image: -o-linear-gradient(left, #fafafa 0%, #445c73 100%);
+      background-image: -moz-linear-gradient(left, #fafafa 0%, #445c73 100%);
+      background-image: -webkit-linear-gradient(left, #fafafa 0%, #445c73 100%);
+      background-image: -ms-linear-gradient(left, #fafafa 0%, #445c73 100%);
+      background-image: linear-gradient(to left, #fafafa 0%, #445c73 100%);
+      
+    }
+    
+    #headersec1 {
+      width: 440px;
+      float: left;
+      text-align: center;
+     // background: rgba(15, 15, 15, 0.5);
+    }
+    
+    #headersec1 h2 {
+      font-size: 2rem;
+      color: #fff;
+    }
+    
+    #headersec1 p {
+      font-size: 0.9rem;
+      color: #e8f1ff;
+      padding-bottom: 1.2rem;
+    }
+    
+    #headersec2 ul {
+      list-style: none;
+    }
+    
+    #headersec2 ul li {
+      display: inline;
+      padding-left: 25px;
+    }
+    
+    #body {
+      padding: 10px 0;
+      background: #fffff2;
+    }
+    
+    #content {
+      width: 600px;
+    }
+/*  39:11*/
+    
+    .column-left {
+      float: left;
+      margin-right: 20px;
+      //background: #aaa;
+    }
+    
+    .column-right {
+      padding: 1%;
+      float: right;
+      //background: #aaa;
+    }
+    
+    #sidebar {
+      width: 268px;
+      padding-top: 10px;
+    }
+    
+    #sidebar ul {
+      list-style: none;
+      margin-bottom: 20px;
+      width: 260px;
+      
+    }
+    
+    #sidebar ul li {
+       //background: #000;
+       display: block;
+       padding: 12px 10px;
+        border-bottom: 1px solid #ddd;
+        color: #777;
+    }
+    
+    #sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    #sidebar ul li a:hover {
+      color: #09285e;
+      text-decoration: underline;
+    }
+    
+    .clear {
+      clear: both;
+    }
+    
+    #sidebar ul.blocklist li {
+      padding-bottom: 0;
+    }
+    
+    #sidebar ul.blocklist li.selected-item {
+      border-bottom: none;
+    }
+    
+    #sidebar ul.blocklist li.selected-item a {
+      color: #fff;
+      //font-weight: bold;
+      background: transparent url("http://www.w3newbie.com/wp-content/uploads/nav-item.jpg") no-repeat;
+    }
+    
+    #sidebar ul.blocklist li.selected-item a {
+      text-decoration: none;
+    }
+    
+    #sidebar ul.blocklist li a {
+      color: #666;
+      width: 260px;
+      display: block;
+      padding: 10px 10px;
+    }
+    
+    #footer {
+      padding: 10px 0px;
+      border-top: 1px solid #ccc;
+      text-align: center;
+    }
+    
+  </style>
+  
+</head>
+<body>
+
+ <div id="wrapper">
+  
+   <div id="logo">
+     <a href="#">
+       <img src="http://www.w3newbie.com/wp-content/uploads/icarbcycle_logo.png" alt="logo">
+     </a>
+   </div>
+   
+   <header>
+     <div id="headersec1">
+       <h2>Take Control of Your <br> Health & Body!</h2>
+       <br>
+       <p>This FREE website is for anyone <br> 
+       who wants to improve their health, <br>
+       apperance and confidence to <br>
+       livelive as they deserve to!</p>
+     </div>
+     <div id="headersec2">
+      <ul>
+        <li><img src="http://www.w3newbie.com/wp-content/uploads/drew_before.png" alt=""></li>
+        <li><img src="http://www.w3newbie.com/wp-content/uploads/drew_after.png" alt=""></li>
+      </ul>
+       
+     </div>
+     
+   </header>
+   
+   <div id="body">
+    
+     <div id="sidebar" class="column-left">
+      <ul class="blocklist">
+        <li class="selected-item"><a href="#">How I Lost 80 lbs in One Year</a></li>
+        <li><a href="#">What is Carb Cycling</a></li>
+        <li><a href="#">Meal Plans</a></li>
+        <li><a href="#">Workout Schedules</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">10 Step Success Letter</a></li>
+      </ul>     
+     </div>
+     
+     <div id="content" class="column-right">
+       <h1>How I Lost 80 lbs in One Year!</h1>
+       <p class="indent">3 wolf moon cloud bread lumbersexual, pabst asymmetrical you probably haven't heard of them chia fam jean shorts ennui literally tote bag. Lumbersexual vinyl dreamcatcher food truck snackwave, tacos offal truffaut yr vice green juice kombucha. 90's literally tofu, tilde sriracha yuccie fixie church-key edison bulb organic fam tbh. Twee narwhal af literally waistcoat. DIY succulents swag, pitchfork ramps williamsburg kogi viral meggings next level butcher banjo </p>
+       
+       <h3>Summer to fall 2011, from 255 to 235 lbs - 20 lbs lost!</h3><br>
+       <p class="indent">Occupy selvage salvia pork belly poutine. Migas ennui YOLO franzen twee la croix pickled gochujang seitan pour-over iPhone hexagon mlkshk. Four dollar toast snackwave portland, tumblr pinterest meditation fashion axe shaman narwhal ennui franzen gochujang shoreditch fingerstache taiyaki. Small batch single-origin coffee wayfarers beard, succulents photo booth keytar direct trade vaporware chicharrones kitsch. Microdosing cliche before they sold out, pabst unicorn cold-pressed small batch godard tbh salvia viral four loko.  </p>
+       <p class="indent">Snackwave kale chips enamel pin echo park. Master cleanse actually live-edge, +1 hexagon irony kale chips subway tile marfa. Occupy stumptown pop-up artisan. Before they sold out fanny pack palo santo woke, cliche iPhone raclette portland irony. Single-origin coffee YOLO tacos fanny pack. Offal gastropub wolf cloud bread, master cleanse neutra franzen hammock af slow-carb jianbing poke pug 8-bit. Chillwave offal chambray, adaptogen butcher chia before they sold out truffaut banh mi. Copper mug vape typewriter pabst, humblebrag salvia YOLO. Marfa iPhone la croix, authentic echo park hammock aesthetic.</p>
+       
+     </div>
+     
+     
+     <div id="footer" class="clear">
+       <p>mabe by &middot; Anton Smid &middot; aug., 2017</p>
+     </div>
+     
+     
+   </div>
+   
+   
+ </div>
+  
+</body>
+</html>
