@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <title>The Gym</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="blueberry.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
  
   <header>
@@ -65,11 +68,11 @@
   <aside>
     <h2>Our Group Class Schedule:</h2>
     <ul class="gym">
-      <li><h3>Studio Cycling at 8 a.m. - 60 minutes</h3></li>
-      <li><h3>Abs Sculpting at 12 p.m. - 30 minutes</h3></li>
-      <li><h3>Power Yoga at 10 a.m. - 60 minutes</h3></li>
-      <li><h3>Boot Camp at 2 p.m. - 30 minutes</h3></li>
-      <li><h3>Butt Sculpting at 4 a.m. - 60 minutes</h3></li>
+      <li><h3>Studio Cycling at 8 a.m. - 60 min.</h3></li>
+      <li><h3>Abs Sculpting at 12 p.m. - 30 min.</h3></li>
+      <li><h3>Power Yoga at 10 a.m. - 60 min.</h3></li>
+      <li><h3>Boot Camp at 2 p.m. - 30 min.</h3></li>
+      <li><h3>Butt Sculpting at 4 a.m. - 60 min.</h3></li>
     </ul>
   </aside>
   
@@ -93,12 +96,13 @@
     <p>Our free weights section has an extensive collection of dumbbells and Olympic plates for body building.</p>
   </section>
   
+<!--   <div class="clear"></div>-->
   
   <footer>
     
     <section>
       <h3><b>The Gym</b></h3>
-      <p><b>215-555-5555</b><br><br> 
+      <p><b><a href="#">215-555-5555</a></b><br><br> 
       1700 Chestnut Street<br>
       Philadelphia, Pa 19100<br>
       trainer@thegym.com</p>      
@@ -115,11 +119,13 @@
     </section>
     
     <section>
-      <img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" alt="">
+      <img id="lifter" src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" alt="">
     </section>
     
   </footer>
   
+<!--   <div class="clear"></div>-->
+   
   <footer class="second">
     <p> made by &middot; anton smid &middot; sept., 2017 </p>
   </footer>
@@ -130,7 +136,12 @@
   
   
     
-      
-<script src="app.js"></script>          
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>      
+<script>
+  $(window).load(function() {
+    $(".blueberry").blueberry();
+  });
+  </script>          
 </body>
 </html>
