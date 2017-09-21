@@ -273,6 +273,152 @@ body .nav .nav-menu li a {
 /* nadaljuj pri 6. delu -- */
 
 
+.one-third {
+  text-align: center;
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+}
+
+.one-third i {
+  color: #f0a830;
+  font-size: 565%;
+  
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2.welcome {
+  margin-top: 4%;
+  
+} 
+
+.left-col {
+  width: 60%;
+  float: left;
+  margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+  width: 28%;
+  float: left;
+  margin: 4%;
+}
+
+.sidebar img {
+  opacity: 0.8;
+}
+
+.one-third img {
+  padding: 4% 0 6% 0;
+}
+
+.page-callout {
+  border: 1px solid #efa831;
+  width: 90%;
+  min-height: 70px;
+  margin: 1% auto;
+}
+
+.callout-text {
+  float: left;
+  width: 75%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button-holder {
+  float: right;
+  width: 19%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.btn {
+  background: #efa831;
+  color: #fefbef;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;   
+}
+
+.btn:hover {
+  background: #f07818;
+}
+
+/* -- start footer -- */
+footer {
+  background: #fcebb6;
+  width: 100%;
+  padding: 1% 0;
+  color: #5e412f;
+  // overflow: auto;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+.footercontact {
+  text-align: center
+}
+
+.phone a {
+  color: #5e412f;
+  text-decoration: none;
+}
+
+.social {
+  list-style: none;
+  margin: 3% 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline;
+  text-decoration: none;
+
+}
+
+.social i {
+  color: #f07818;
+  font-size: 195%;
+  padding: 3%;
+
+} 
+
+.social i:hover {
+  color: #78c0a8;
+}
+
+/* -- Styling for Google Maps / iFrame  -- */
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+
+
+
+
 
 
 
